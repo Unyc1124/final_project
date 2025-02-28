@@ -26,7 +26,7 @@ class App extends StatelessWidget {
           seedColor: const Color.fromARGB(255, 63, 17, 177),
         ).copyWith(
           primary: Colors.black, // Override primary color to black
-          background: Colors.black, // Set background to black
+          surface: Colors.black, // Set background to black
         ),
       ),
       home: StreamBuilder(
